@@ -14,17 +14,3 @@ def edad(anios: int):
             mensaje = "Relája, Nosferatus."
             
         return mensaje
-
-print(edad(-3))
-
-
-"""def main():
-    try:
-        anios = int(input("Por favor, ingresa tu edad: "))
-        resultado = edad(anios)
-        print(resultado)
-    except ValueError:
-        print("Ingresa una edad válida, por favor.")
-
-if __name__ == "__main__":
-    main()"""
