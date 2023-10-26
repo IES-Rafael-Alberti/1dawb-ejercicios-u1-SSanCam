@@ -5,7 +5,7 @@ from tributar import tributar
     "edad, ingresos, expected",
     [
         (17,1000,"Te toca tributar."),
-        (4,300000,"Aún tienes que pasar la edad del pavo."),
+        (4,300000,"Aún tienes que pasar la edad del pavo, no tributas."),
         (25,500,"Estás un poco tieso, no tributes.")
     ]
 )
