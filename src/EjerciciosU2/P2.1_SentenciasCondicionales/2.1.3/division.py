@@ -4,6 +4,7 @@ def op_division (numero1, numero2):
         return "Error. No puede dividirse entre 0."
     else:
         division = numero1 / numero2
-        return "{:.2f}".format(division)
+        division_formateada = "{:.2f}".format(division)
+        return division_formateada
         
     
