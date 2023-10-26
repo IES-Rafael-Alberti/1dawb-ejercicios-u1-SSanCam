@@ -1,5 +1,5 @@
 import pytest 
-from prueba1 import numero_mayor_igual
+from prueba1 import mayor_igual
 
 @pytest.mark.parametrize(
     "numero1, numero2, expected",
@@ -10,5 +10,5 @@ from prueba1 import numero_mayor_igual
     ]
 )
 
-def numero_mayor_igual(numero1, numero2, expected):
-    assert numero_mayor_igual(numero1, numero2) == expected
+def mayor_igual(numero1, numero2, expected):
+    assert mayor_igual(numero1, numero2) == expected
