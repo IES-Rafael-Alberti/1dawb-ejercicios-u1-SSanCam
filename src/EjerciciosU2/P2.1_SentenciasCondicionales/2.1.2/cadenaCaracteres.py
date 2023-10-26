@@ -3,8 +3,8 @@ pregunte al usuario por la contraseña e imprima por pantalla si la contraseña 
 por el usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas."""
 
 def cadena(contrasenia):
-    password = "aytortilla"
     
+    password = "aytortilla"
     if (contrasenia.lower() == password):
         return "La contraseña es correcta."
     else:

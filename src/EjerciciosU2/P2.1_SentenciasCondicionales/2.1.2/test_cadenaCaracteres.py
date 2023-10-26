@@ -12,5 +12,6 @@ from cadenaCaracteres import cadena
   )
   
 def cadena(contrasenia, expected):
-    assert cadena(contrasenia) == expected
+  contrasenia.lower()
+  assert cadena(contrasenia) == expected
     

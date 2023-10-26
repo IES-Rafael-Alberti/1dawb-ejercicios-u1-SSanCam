@@ -11,6 +11,5 @@ from division import operacion_div
     ]
   )
 
-def test_operacion_div():
-    assert operacion_div() == 2.00
-    assert operacion_div() == ZeroDivisionError
+def test_operacion_div(num1, num2, expected):
+    assert operacion_div(num1, num2) == expected

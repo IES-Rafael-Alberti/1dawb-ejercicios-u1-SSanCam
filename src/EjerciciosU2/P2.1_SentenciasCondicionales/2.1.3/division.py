@@ -1,11 +1,10 @@
 """Escribir un programa que pida al usuario dos números y muestre por pantalla su 
 división. Si el divisor es cero el programa debe mostrar un error."""
 
-def operacion_div ():
+def operacion_div (num1, num2):
     
     try:
         
-        print("Vamos a realizar una división.")
         num1 = float(input("Introduce un número: "))
         num2 = float(input("Introduce otro número: "))
                 
@@ -14,4 +13,6 @@ def operacion_div ():
         
     except(ZeroDivisionError):
         return "ERROR.\nNo puede dividirse entre 0."
+    
+    
     
