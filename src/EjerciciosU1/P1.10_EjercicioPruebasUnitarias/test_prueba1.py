@@ -10,5 +10,5 @@ from prueba1 import mayor_igual
     ]
 )
 
-def mayor_igual(numero1, numero2, expected):
+def test_prueba1(numero1, numero2, expected):
     assert mayor_igual(numero1, numero2) == expected
